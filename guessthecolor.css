@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#guess {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  background-color: hsl(0, 0%, 100%); /* You guess goes here */
+  border: 1px solid hsl(0, 0%, 80%)
+}
